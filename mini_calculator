@@ -1,1 +1,22 @@
+#!/usr/bin/perl
 
+if($ARGV[2] eq "+")
+{
+  print $ARGV[0]+$ARGV[1]."\n";
+}
+elsif($ARGV[2] eq "-")
+{
+  print $ARGV[0]-$ARGV[1]."\n";
+}
+elsif($ARGV[2] eq "*")
+{
+  print $ARGV[0]*$ARGV[1]."\n";
+}
+elsif($ARGV[2] eq "/")
+{
+  print $ARGV[0]/$ARGV[1]."\n";
+}
+else
+{
+  print "Wrong operator\n";
+}
