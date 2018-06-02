@@ -1,4 +1,4 @@
-=pod
+#<
 
 Write a perl script called many_arguments.pl which takes multiple arguments.
 The script should print a single number equal to the number of all the arguments provided on the command line on a single line.
@@ -10,7 +10,7 @@ $./many_arguments.pl a be cd de
 a be ce de
 $
 
-=cut
+>#
 
 #!/usr/bin/perl
 
