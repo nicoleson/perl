@@ -20,3 +20,5 @@ else
 {
   print "Wrong operator\n";
 }
+
+# Change the file permission using chmod 700 mini_calculator.pl & execute with ./mini_calcualtor.pl
